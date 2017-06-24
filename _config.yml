@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "IOS XR Application Hosting @xrdocs"
+title                    : "EPN 5.0 Technical Documents @epndocs"
 title_short              : "EPN 5.0"
 title_separator          : "|"
 name                     : &name "Cisco Systems Inc"
@@ -152,7 +152,7 @@ collections:
   techdocs:
     output: false 
     permalink: /:collection/:path/
-  blogs:
+  models:
     output: true
     permalink: /:collection/:path/
 
@@ -169,10 +169,10 @@ defaults:
       author_profile: false
       share: false
       comments: false
-# _blogs
+# _models
   - scope:
       path: ""
-      type: blogs
+      type: models
     values:
       layout: single
       author_profile: true
@@ -303,7 +303,7 @@ prose:
     - README.md
     - _config.pdf.yml
   metadata:
-    _blogs:
+    _models:
       - name: "title"
         field:
             element: "text"

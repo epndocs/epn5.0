@@ -10,136 +10,55 @@ author: "Cisco EPN Team"
 <br/>
 <table BORDER>
     <colgroup>
-        <col width="10%" />
-        <col width="35%" />
+        <col width="70%" />
+        <col width="30%" />
     </colgroup>
     <thead>
-        <TR>	<th ROWSPAN=2>Model#<TH ROWSPAN=2>Deployment Model Description</TH>
-            <TH COLSPAN=3>Services Originating from</TH></Th>
+        <TR>
+            <TH>EPN 5.0 Validated Design Guides
+            <TH>Downlink Link</TH></Th>
         </TR>
-        <TR>	<TH> Access (XE) <TH> Pre-Agg (XE) </TH><TH> Agg (XR) </TH></TH>
-            </TR>
     </thead>
     <tbody>
         <tr>
-            <td ROWSPAN=6>1</td>
-            <td ROWSPAN=6>Small Network End to End SR</td>
-            <TD>LDP VPWS</TD><TD/><TD/>
+            <td>EPN 5.0 Transport Design Guide</td>
+            <TD><a class="btn" href="http://www.cisco.com/c/dam/en/us/td/docs/solutions/Enterprise/Mobility/EPN/5_0/cisco_epn_implementation_guide/b_epn_Transport_Design_Guide_5_0_230617.pdf">Download</a>
+            </TD>
         </tr>
         <tr>
-            <td>EVPN VPWS</td><TD/><TD/>
+            <td>EPN 5.0 Services Design Guide</td>
+            <TD><a class="btn" href="http://www.cisco.com/c/dam/en/us/td/docs/solutions/Enterprise/Mobility/EPN/5_0/cisco_epn_implementation_guide/b_Services_Design_Guide_5_0_220617.pdf">Download</a>
+            </TD>
         </tr>
         <tr>
-            <td>Static VPWS</td><TD/><TD/>
+            <td>EPN 5.0 System Test Topology Reference Guide</td>
+            <TD><a class="btn" href="http://www.cisco.com/c/dam/en/us/td/docs/solutions/Enterprise/Mobility/EPN/5_0/cisco_epn_implementation_guide/b_System_Test_Topology_Reference_Guide_21stJune2017.pdf">Download</a>
+            </TD>
         </tr>
         <tr>
-            <td>LDP VPLS</td><TD/><TD/>
+            <td>EPN 5.0 Network Service Orchestration User Guide</td>
+            <TD><a class="btn" href="http://www.cisco.com/c/dam/en/us/td/docs/solutions/Enterprise/Mobility/EPN/5_0/cisco_epn_implementation_guide/b_EPN_Service_Orchestration_userguide_5_0_220617.pdf">Download</a>
+            </TD>
         </tr>
         <tr>
-            <td>BGP-AD VPLS</td><TD/><TD/>
+            <td>EPN 5.0 Implementation Guide for Large Network with End to End Segment Routing</td>
+            <TD><a class="btn" href="http://www.cisco.com/c/dam/en/us/td/docs/solutions/Enterprise/Mobility/EPN/5_0/cisco_epn_implementation_guide/b_epn_implementguide_large_network_E2E_SR_5_0_23062017.pdf">Download</a>
+            </TD>
         </tr>
         <tr>
-            <td>L3 VPN</td><TD/><TD/>
+            <td>EPN 5.0 Implementation Guide for Small Network with End to End Segment Routing</td>
+            <TD><a class="btn" href="http://www.cisco.com/c/dam/en/us/td/docs/solutions/Enterprise/Mobility/EPN/5_0/cisco_epn_implementation_guide/b_epn_implementguide_smallnetwork_E2E_SR_5_0_23062017.pdf">Download</a>
+            </TD>
         </tr>
         <tr>
-            <td ROWSPAN=8>2</td>
-            <td ROWSPAN=8>Large Network End to End SR</td>
-            <TD>LDP VPWS</TD><TD/><TD/>
+            <td>EPN 5.0 Implementation Guide for Large Network with End to End Programmable Segment Routing</td>
+            <TD><a class="btn" href="http://www.cisco.com/c/dam/en/us/td/docs/solutions/Enterprise/Mobility/EPN/5_0/cisco_epn_implementation_guide/b_EPN_Implementguide_E2E_Program_SR_5_0_23062017.pdf">Download</a>
+            </TD>
         </tr>
         <tr>
-            <td>EVPN VPWS</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td>LDP VPLS</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td>BGP-AD VPLS</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td  >L3 VPN</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td  >(PW)</td><TD>LDP H-VPLS</TD><TD>LDP H-VPLS (Direct or Over Pre-Agg)</TD>
-        </tr>
-        <tr>
-            <td  >(PW)</td><TD>BGP-AD H-VPLS</TD><TD>BGP-AD H-VPLS (Direct or Over Pre-Agg)</TD>
-        </tr>
-        <tr>
-            <td  >(PW)</td><TD>PBB EVPN H-VPLS</TD><TD>PBB EVPN H-VPLS (Direct or Over Pre-Agg)</TD>
-        </tr>
-        <tr>
-            <td  >3</td>
-            <td  >Large Network End to End Programmable SR (SR-ODN)</td>
-            <TD>LDP VPWS</TD><TD>NA</TD><TD>L3VPN w/ PW-HE</TD>
-
-        </tr>
-        <tr>
-            <td  ROWSPAN=8>4</td>
-            <td  ROWSPAN=8>Inter-AS Large Network End to End SR</td>
-            <TD>LDP VPWS</TD><TD/><TD/>
-        </tr>
-        <tr>
-            <td  >EVPN VPWS</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td  >LDP VPLS</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td  >BGP-AD VPLS</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td  >L3 VPN</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td  ></td><TD>Service supported but not covered</TD><TD>LDP H-VPLS</TD>
-        </tr>
-        <tr>
-            <td  ></td><TD>Service supported but not covered</TD><TD>BGP-AD H-VPLS</TD>
-        </tr>
-        <tr>
-            <td  ></td><TD>Service supported but not covered</TD><TD>PBB EVPN H-VPLS</TD>
-        </tr>
-        <tr>
-            <td   ROWSPAN=8>5</td>
-            <td   ROWSPAN=8>Large Network SR - LDP Interworking</td>
-            <TD>LDP VPWS</TD><TD/><TD/>
-        </tr>
-        <tr>
-            <td  >EVPN VPWS</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td  >LDP VPLS</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td  >BGP-AD VPLS</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td  >L3 VPN</td><TD/><TD/>
-        </tr>
-        <tr>
-            <td  ></td><TD>LDP H-VPLS</TD><TD>LDP H-VPLS</TD>
-        </tr>
-        <tr>
-            <td  ></td><TD>BGP-AD H-VPLS</TD><TD>BGP-AD H-VPLS</TD>
-        </tr>
-        <tr>
-            <td  ></td><TD>PBB EVPN H-VPLS</TD><TD>PBB EVPN H-VPLS</TD>
-        </tr>
-        <tr>
-            <td  >6</td>
-            <td  >Large Network - L2 Access G.8032 and REP w/ static MPLS</td>
-            <TD>Static VPWS</TD><TD/><TD/>
-        </tr>
-        <tr>
-            <td   ROWSPAN=8>7</td>
-            <td   ROWSPAN=8>Large Network - L2 Access with G.8032 and REP</td>
-            <TD>NA</TD><TD>LDP H-VPLS</TD><TD>LDP H-VPLS</TD>
-        </tr>
-        <tr>
-            <td  >NA</td><TD>BGP-AD H-VPLS</TD><TD>BGP-AD H-VPLS</TD>
-        </tr>
-        <tr>
-            <td  >NA</td><TD>PBB EVPN H-VPLS</TD><TD>PBB EVPN H-VPLS</TD>
+            <td>EPN 5.0 Implementation Guide for Large Network with Segment Routing and LDP Interworking</td>
+            <TD><a class="btn" href="http://www.cisco.com/c/dam/en/us/td/docs/solutions/Enterprise/Mobility/EPN/5_0/cisco_epn_implementation_guide/b_epn_ImplementGuide_LDP_SR_interworking_23062017.pdf">Download</a>
+            </TD>
         </tr>
     </tbody>
 </table>
