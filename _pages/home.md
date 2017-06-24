@@ -17,7 +17,7 @@ feature_row3:
     alt: "fully responsive"
     title: " EPN Models & Configurations"
     excerpt: 'EPN 5.0 NSO Service YANG Models and Configurations for deployment models.'
-    url: "/blogs"
+    url: "/models"
     btn_label: "Check out the models!"
     btn_class: "btn--inverse"
 
